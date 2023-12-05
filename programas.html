@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programas</title>
+    <link rel="icon" href="logo5.png" type="image/x-icon">
+    <script>
+        document.addEventListener('DOMContentLoaded', ()=>{
+           /// alert("Se cargó el DOM");
+            const htmlCards = document.querySelectorAll('section div');
+            htmlCards.forEach((card, index) => {
+                card.addEventListener('click', ()=>{
+                    ///alert(`Se hizo click en la tarjeta ${index + 1}`);
+                });
+            });
+        });
+    </script>
+    <script src="fundacionVida.js"></script>
+    <link rel="stylesheet" href="fundacionVida.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <img src="logo.png" alt="Logo" class="logo">
+                <li><a href="index.html">INICIO</a></li>
+                <li>
+                    <a href="#">ACERCA DE NOSOTROS<span class="icon"></span></a>
+                    <ul>
+                        <li><a href="historia.html">NUESTRA HISTORIA</a></li>
+                        <li><a href="areas.html">AREAS DE TRABAJO</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" style="color: #3c7408">QUÉ HACEMOS<span class="icon"></span></a>
+                    <ul>
+                        <li><a href="programas.html" style="color: #3c7408">NUESTROS PROGRAMAS</a></li>
+                        <li><a href="galeria.html">GALERIA DE FOTOS</a></li>
+                        <li><a href="eventos.html">EVENTOS</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">COLABORA<span class="icon"></span></a>
+                    <ul>
+                        <li><a href="ayudar.html">COMO AYUDAR</a></li>
+                        <li><a href="donaciones.html">DONACIONES</a></li>
+                    </ul>
+                </li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="preguntas.html">PREGUNTAS FRECUENTES</a></li>
+                <li><a href="contactanos.html">CONTÁCTANOS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <div class="titulo">
+        <img src="titulo.png" alt="tit" class="tit">
+        <section>
+        <h1>NUESTROS PROGRAMAS</h1>
+    </div>
+</section>
+
+<div class="container">
+    <button class="accordion">Programa Asociación Voz para el cambio (V4CP)</button>
+    <div class="panel">
+        <img src="v4cp.jpg">
+        <p>El Programa Asociación Voz para el Cambio (V4CP) es un programa ejecutado en conjunto por la Organización 
+        Holandesa para el Desarrollo (SNV), el Instituto Internacional de Investigación sobre Políticas Alimentarias 
+        (IFPRI) y el Ministerio Holandés de Asuntos Exteriores (DGIS) en alianza con Organizaciones de la Sociedad Civil 
+        (OSC) nacionales. Entre las OSC participantes, se puede encontrar a: FOPRIDEH, RDS-HN, ASONOG, CDH, Fundación Vida 
+        y Hermandad Honduras. V4CP es un programa multinacional y multisectorial de cinco años (2016-2020) que se 
+        desarrolla en seis países: Kenia, Ruanda, Burkina Faso, Ghana, Indonesia y Honduras y que tiene entre sus objetivos, 
+        fortalecer la capacidad de las OSC para la incidencia. <br>
+        El principal objetivo del Programa Asociación Voz para el Cambio es fortalecer la capacidad de las OSC para 
+        la incidencia en el diseño e implementación de políticas públicas. En el caso específico de Honduras, 
+        nuestro programa se centra en los temas de Seguridad Alimentaria y Nutricional y Energía Renovable, con énfasis 
+        en Estufas Mejoradas.<br>
+        En la práctica, esto se traduce a la organización de talleres para reflexión y apropiación de la información disponible como evidencia científica para incentivar que OSC tengan un mayor impacto en la diagramación de políticas. Estos talleres a su vez facilitarán la coordinación entre las distintas organizaciones participantes, potenciando la capacidad de efecto así como el intercambio de información útil.</p>
+    </div>
+
+    <button class="accordion">Proyecto Profogones</button>
+    <div class="panel">
+        <img src="profogones.jpg">
+        <p>El Proyecto Promoción de Modelos de Negocios Sostenibles para Difundir el uso de Estufas Mejoradas ejecutado por Fundación Vida, tiene como objetivo promover un mayor acceso a la tecnología de las estufas mejoradas de leña, y así contribuir al mejoramiento de la calidad de vida de las diferentes comunidades de Honduras que aún hacen uso de fogones tradicionales, los cuales son muy ineficientes por su alto consumo de leña y generan una gran cantidad de humo dentro de las viviendas provocando enfermedades cardio pulmonares a los usuarios.
+            <br>Las estufas mejoradas que funcionan con leña (denominadas también como fogones ecológicos, estufas eficientes, estufas ecológicas, eco-estufas o eco-fogones, entre otros) son modernas tecnologías de cocción en base a leña, son mucho más eficientes que los fogones tradicionales teniendo poco consumo de leña, a la vez que reducen de forma significativa la generación de humo intramuros y hacia la atmósfera.
+            
+            <br><br><b>Tecnología</b>
+            <br> Esta tecnología de estufas mejoradas tienen la capacidad de mejorar la calidad de vida de las familias que hacen uso de la leña, reduciendo el tiempo de recolección o el gasto financiero para su compra, además de minimizar o evitar las enfermedades respiratorias comúnmente asociadas a la inhalación de humo de leña.
+            <br>El proyecto PROFOGONES busca incrementar la capacidad de promoción, construcción e instalación de fogones mejorados a nivel nacional, así mismo, busca cooperar con los implementadores de fogones mejorados, complementando sus costos de producción al brindar un subsidio para la construcción de fogones, de la misma forma, facilitando la creación de líneas de crédito con microfinancieras locales para la adopción de estas tecnologías.
+            <br>Para lograr estos objetivos, el proyecto trabajará con productores e implementadores de fogones mejorados ya existentes en el mercado, fortaleciendo sus capacidades de promoción, instalación y seguimiento de los fogones mejorados, además velando por la calidad de los mismos realizando verificaciones de su funcionamiento.</p>
+    </div>
+
+    <button class="accordion">Proyecto Servicio de Asesoramiento sobre las Finanzas del Clima?</button>
+    <div class="panel">
+        <img src="finanzas-logo.jpg">
+        <p>El proyecto llamado “Servicio de Asesoramiento sobre las Finanzas del Clima” (CFAS por sus siglas en inglés) consta de una lista de expertos que tienen como objetivo proporcionar a negociadores clave la información adecuada y asesoramiento en torno a temas clave en el financiamiento climático.
+            <br>
+            <br> CFAS tiene como finalidad ayudar a los negociadores de los países en desarrollo más vulnerables para que puedan acceder a una mejor intervención en la arquitectura global del financiamiento climático; a través de la facilitación de información sobre el tema. El proyecto CFAS es provisto de manera gratuita e incluye los siguientes servicios:
+            <br>1. Servicio de respuesta inmediata vía email e in situ, el cual provee respuestas adecuadas a inquietudes.
+            <br>2. Provisión de informes sobre políticas técnicas previos a las sesiones clave de financiamiento para el clima y boletines electrónicos en un plazo de un año.
+            <br>3. Un sitio web que recopila y muestra preguntas y respuestas.
+            
+            <br> <br>Este proyecto, del cual Fundación Vida forma parte, es financiado por la Alianza Clima y Desarrollo (CDKN por sus siglas en inglés) y está conformado por un consorcio de expertos en financiamiento climático de países desarrollados y en vías de desarrollo a nivel mundial siendo liderado por Germanwatch de Alemania. La Fundación Vida facilita la información provista por el consorcio a nivel de Latinoamérica.
+            
+            <br>A lo largo del 2013, se prevé que nuestros expertos del proyecto CFAS cubran todas las reuniones de la Junta del Fondo Verde para el Clima (GCF por sus siglas en inglés) así como las negociaciones de la Convención Marco de las Naciones Unidas sobre Cambio Climático. De ser posible también se cubrirán las reuniones del Comité Permanente y otras reuniones de financiamiento climático pertinentes.
+            
+            <br>Para más información sírvase de acceder al sitio web del proyecto: www.cdkn.org/cfas El sitio web también cuenta con una plantilla para consultas sobre financiamiento climático. Por favor, siéntase libre de enviar sus consultas en cualquier momento que necesite asesoramiento en temas de financiamiento climático.
+            
+            <br> <br><b>Noticias</b>
+            
+            <br> <br><b>Informe de Políticas – Junio 2013</b>
+            <br>El pasado mes de Junio, CFAS hizo la publicación de su segundo informe de políticas. Este informe evalúa el mecanismo de acceso directo y su funcionalidad en relación al Fondo Verde para el Clima. Como resultado, el informe de políticas contribuye al debate que se lleva a cabo alrededor de las modalidades de acceso del FVC. De manera particular, este informe:
+            <br>• explica la terminología acerca del acceso directo y el mejoramiento del acceso directo, destacando las competencias y las capacidades necesarias para cada nivel institucional para lograr el acceso directo
+            <br>• repasa las experiencias recientes de utilizar el acceso directo con un enfoque en fondos climáticos internacionales
+            <br>• hace recomendaciones para la Junta del FVC y otros.
+            <br> <br>El mandato del Fondo Verde para el Clima (FVC) es poder asegurar diferentes grados de apropiamiento por parte de los países beneficiarios a través de diferentes formas (modalidades) de acceso al fondo, mientras se promueve un enfoque de país. En la tercera reunión de la Junta del FVC, que tuvo lugar en Berlín el 13 de Marzo del 2013, las diferentes formas de acceso al fondo y las opciones para aplicarlas fueron enfatizadas. Algunos de los miembros de la Junta que pertenecen a países en desarrollo destacaron que el acceso directo al FVC es una de las estructuras clave para el apropiamiento de cada país. Bajo el acceso directo, los gobiernos nacionales o sus representantes y las instituciones subnacionales, reciben fondos climáticos a nivel internacional y los desembolsan para los proyectos más relevantes. Los miembros de la Junta pertenecientes a países en desarrollo argumentaron que la modalidad de acceso directo debe de ser priorizada por la Junta en el diseño del Fondo, incluyendo una provisión para el mejoramiento del acceso directo. Sin embargo, algunos miembros de la Junta pertenecientes a países desarrollados discutieron que mientras el acceso directo tiene importancia, es sólo una de las posibles modalidades de acceso para el FVC.</p>
+    </div>
+
+    <button class="accordion">Facilitación de la Organización Local para la Protección Forestal</button>
+    <div class="panel">
+        <img src="forestal.jpg">
+        
+        <p>Este Proyecto tiene como meta contribuir con el cumplimiento del proceso de socialización y reglamentación de la Ley Forestal, Áreas Protegidas y Vida Silvestre.
+            <br> <br>El fin del proyecto es buscar:
+            <br>a) Desarrollar el modelo de organización de los Consejos Consultivos Municipales y Comunitarios en el marco de la LFAPVS y el PRONAFOR como entes de consulta y orientar en el desarrollo forestal de sus comunidades.
+            <br>b) Desarrollar una experiencia piloto, el modelo de formar y operar de los Consejos Municipales y Comunales en relación al tema de prevención y combate de incendios forestales.
+            <br>c) Implementar un modelo piloto de sistema de voluntariado municipal para la protección del bosque.
+            <br>d) Sistematizar y difundir la experiencia sustentados en la nueva legislación forestal como marco de referencia para fortalecer las acciones preventivas.
+            <br> <br>En el mes de Junio del año 2007 se suscribe una primera carta de acuerdo entre Fundación Vida y la Organización de las Naciones Unidas para la Agricultura y la Alimentación (FAO) para el “Fortalecimiento de Ocho municipios en Protección contra Incendios Forestales” a través del Mecanismo Facility que coordina la Agenda Forestal Hondureña.
+            <br>Este proyecto busca alcanzar un objetivo General el cual engloba Facilitar la organización de Consejos Consultivos Municipales y Comunitarios en el marco de la nueva LFAPVS y el PRONAFOR, haciendo énfasis en el tema de Prevención y Combate a Incendios Forestales, aplicado en los Municipios de: Valle de Ángeles, Santa Lucía, San Antonio de Oriente, Tatumbla, Santa Ana, Ojojona, Lepaterique y Talanga desarrollando una experiencia piloto, en un municipio.
+            
+            <br> <br> A través de los objetivos antes citados, el proyecto contribuye directamente al cumplimiento del objetivo general del Marco Lógico del Acuerdo de Asociación de Honduras con Facility.
+            
+            <br><br>Dichos objetivos buscan respectivamente que:
+            <br>Las instituciones forestales hondureñas en los diferentes ámbitos territoriales (nacional, departamental, municipal y comunitario) busquen desarrollar y fortalecer sus capacidades para la implementación de la política y la Ley Forestal, Áreas Protegidas y Vida Silvestre, su reglamento y el Programa Nacional Forestal.
+            <br>La sociedad civil organizada participe en la implementación de la Ley Forestal, Áreas Protegidas y Vida Silvestre.
+            <br>Los actores del sector forestal (social, ambiental, gremial y académico) fortalezcan sus capacidades para la implementación del Programa Nacional Forestal.
+            
+            <br> <br> Las actividades que el proyecto prioriza son las siguientes:
+            <br>1. Elaborar, mediante una consultoría un documento de Propuesta de Modelo para formar en relación al tema de Prevención y combate de Incendios Forestales en el marco de la nueva Ley Forestal Áreas Protegidas y Vida Silvestre y el PRONAFOR.
+            <br>2. Cuatro (4) visitas institucionales para suscribir acuerdos con las instituciones del sector público (ICF, COPECO, SERNA y AHMON).
+            <br>3. Ocho (8) talleres (uno por municipio), para el análisis crítico de la LFAPVS y el PRONAFOR en el tema de prevención y combate de incendios forestales.
+            <br>4. Tres (3) talleres para elaborar de manera participativa la Guía Metodológica.
+            <br>5. Un (1) taller para la región, para validar la propuesta de Modelo.
+            <br> 6. Una (1) reunión con las autoridades nacionales y socios del proyecto para presentar el modelo y la guía.
+            <br>7. Un (1) taller para la elaboración participativa del plan de acción en el Municipio seleccionado para implementar en el área piloto.
+            <br>8. Una (1) reunión para presentar el plan de acción a nivel del Municipio para implementar en el área piloto la propuesta modelo y la guía.
+            <br>9. Seis (6) reuniones para la capacitación, formación y operación del Consejo Consultivo Municipal.
+            <br>10. Seis (6) reuniones para la capacitación, formación y operación de Consejo Consultivo Comunitarios.
+            <br>11. Elaboración, mediante una consultoría, de un estudio de «Diseño del sistema de voluntariado municipal que incluya un sistema de incentivo» (en un municipio).
+            <br>12. Dos (2) reuniones para la elaboración del perfil ocupacional comunitario y el registro de la actividad de prevención y control de incendios forestales, en al menos dos áreas de mayor incidencia de incendios forestales en cada uno de los 8 municipios.
+            <br>13. Cuatro (4) reuniones para el establecimiento del sistema de voluntariado municipal y el incentivo.
+            <br>14. Capacitar y facilitar, mediante una consultoría, la implementación de una actividad productiva como mecanismo de compensación por el voluntariado.
+            <br>15. Sistematizar, mediante una consultoría, la experiencia haciendo especial énfasis a las lecciones aprendidas del proceso: Consultor para elaborar el documento y coordinación general del proyecto.
+            <br>16. Encuentro interinstitucional y municipal, para difundir los resultados de la experiencia.
+            
+            <br> <br>Para asegurar el adecuado desarrollo y ejecución del proyecto, Fundación Vida mantiene un sistema de seguimiento y evaluación operativa con indicadores objetivamente verificables y las respectivas fuentes de información.
+            <br>Este proyecto es el resultado del esfuerzo por parte de Fundación Vida para contribuir a la conservación, manejo adecuado y sostenible de los recursos forestales con los que cuenta Honduras y de esta forma mejorar la calidad de vida de nuestras poblaciones rurales.</p>
+    </div>
+    <button class="accordion">Proyecto de Aumento de Capacidades en la Cuenca del Río Goascorán</button>
+    <div class="panel">
+        <img src="goas.jpg">
+        <p>La Fundación Hondureña de Ambiente y Desarrollo VIDA en sus metas para beneficiar a la comunidad tiene como objetivo promover e implementar la gestión de los recursos naturales y la conservación, mediante la mejora de la capacidad organizativa local, y la promoción de la producción agropecuaria agro –ecológica.
+
+            <br> Fundación Vida utiliza métodos y técnicas que promueven la participación individual y de grupo en el fortalecimiento organizativo, la gestión ambiental y la conservación y la gestión sostenible de los recursos agrícolas. Alrededor de tres seminarios permiten proporcionar un mayor conocimiento y comprensión del proyecto entre una amplia gama de miembros y grupos de la comunidad.
+            <br> El proyecto beneficia a cerca de 1,000 beneficiarios directos y cerca de 1,500 beneficiarios indirectos, tanto en El Salvador y Honduras; al trabajar en conjunto con el Grupo Gestor Binacional y su gran variedad de participantes, siendo estas las mancomunidades, asociaciones, organizaciones locales, gobiernos locales, las Unidades Ambientales Municipales (MEU), unidades técnicas intermunicipales (ITU), las asociaciones de padres y maestros, juntas de agua, consejos comunales, hogares y otros.
+            
+            <br> <br> El proyecto incluye las siguientes actividades:
+            <br><b>1.Fortalecimiento, Producción y Protección Ambiental</b>
+            <br> <br> Actividades con los agricultores locales para proteger y conservar el medio ambiente y la mejora de los ingresos en varias áreas; estas actividades incluyen lo siguiente:
+            <br>La conversión de aproximadamente 35 granjas para la implementación de prácticas agroecológicas y la diversificación de cultivos apropiados para el entorno local.
+            <br>Instalación de estufas de bajo consumo de combustible en cerca de 50 hogares.
+            <br>Presentación de micro-riego en 35 granjas para mejorar la producción.
+            <br> Presentación e integración de la gestión forestal en las prácticas agrícolas de conservación, aumento de los ingresos y servir de modelo para otros productores.
+            <br>Proporcionar servicios de saneamiento y capacitación en nutrición para los productores ganaderos orientados a aumentar la producción.
+            <br>El establecimiento de redes de comercialización, local y regional; basado en el concepto de «producir conservando» para obtener mejores precios de los productos a través de las ventas.
+            <br>El establecimiento de la producción de pequeños animales para mejorar los ingresos del hogar y la nutrición.
+            <br>El establecimiento de negocios de reciclaje de residuos sólidos.
+            <br>Mejora de la gestión local del agua a través del establecimiento de la captura de agua.
+            
+            <br> <br><b> 2. Fortalecimiento de Grupos de la Sociedad Civil</b>
+            <br>Reforzamiento del Grupo Gestor Binacional como uno de los principales actores para mejorar la vida ambiental y económica en la cuenca del Río Goascorán.
+            <br>a. Desarrollo de un plan de trabajo con distintas soluciones a los problemas identificados por el Grupo Gestor Binacional en la cuenca del río Goascorán.
+            <br>b. Trabajo con los gobiernos locales y mancomunidades para aplicar las decisiones locales de conservación y administración de los recursos de la cuenca del río Goascorán.
+            <br>c. Fortalecimiento de los grupos de gestión y las capacidades locales a través de capacitación para apoyar las actividades para atraer más recursos que permitan centrarse en las cuestiones de Río Goascorán.
+            <br> d. Fortalecimiento de la capacidad de la sociedad civil para identificar problemas y proponer soluciones con una mayor interacción con las autoridades locales.
+            <br>e. Promoción de la transparencia de las actividades públicas relacionadas con la cuenca binacional a través de la formación y los intercambios con los municipios en los que existen programas de transparencia activa.
+            
+            <br> <br><b>3. Fortalecimiento de la capacidad ambiental y económica del Gobierno Local</b>
+            <br>Los gobiernos locales y las mancomunidades se fortalecen a través de una combinación de formación, intercambios y actividades similares. La formación y los intercambios son los caminos centrales para el fortalecimiento de las ITUs y más debido al potencial efecto rápido que estos métodos pueden tener en el funcionamiento de estos grupos.
+            <br>Fundación Vida sigue construyendo alianzas con el sector público, el sector privado y organizaciones no gubernamentales para fortalecer la producción, capacidad de organización y las actividades de mercadeo dentro de las comunidades del proyecto.</p>
+    </div>
+</div>  
+
+<section>
+    <div class="banner2">
+        <img src="banner2.png" alt="banner2" class="banner2">
+    </div>
+</section>
+
+</body>
+<footer>
+    <img src="footer.png" alt="">
+    <h1>Copyright © 2020 FUNDACION VIDA | HONDURAS. </h1>
+</footer>
+</html>

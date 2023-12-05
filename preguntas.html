@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntas Frecuentes</title>
+    <link rel="icon" href="logo5.png" type="image/x-icon">
+    <script>
+        document.addEventListener('DOMContentLoaded', ()=>{
+           /// alert("Se cargó el DOM");
+            const htmlCards = document.querySelectorAll('section div');
+            htmlCards.forEach((card, index) => {
+                card.addEventListener('click', ()=>{
+                    ///alert(`Se hizo click en la tarjeta ${index + 1}`);
+                });
+            });
+        });
+    </script>
+     <script src="fundacionVida.js"></script>
+     <link rel="stylesheet" href="fundacionVida.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <img src="logo.png" alt="Logo" class="logo">
+                <li><a href="index.html">INICIO</a></li>
+                <li>
+                    <a href="#">ACERCA DE NOSOTROS<span class="icon"></span></a>
+                    <ul>
+                        <li><a href="historia.html">NUESTRA HISTORIA</a></li>
+                        <li><a href="areas.html">AREAS DE TRABAJO</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">QUÉ HACEMOS<span class="icon"></span></a>
+                    <ul>
+                        <li><a href="programas.html">NUESTROS PROGRAMAS</a></li>
+                        <li><a href="galeria.html">GALERIA DE FOTOS</a></li>
+                        <li><a href="eventos.html">EVENTOS</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">COLABORA<span class="icon"></span></a>
+                    <ul>
+                        <li><a href="ayudar.html">COMO AYUDAR</a></li>
+                        <li><a href="donaciones.html">DONACIONES</a></li>
+                    </ul>
+                </li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="preguntas.html" style="color: #3c7408">PREGUNTAS FRECUENTES</a></li>
+                <li><a href="contactanos.html">CONTÁCTANOS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="titulo">
+        <img src="titulo.png" alt="tit" class="tit">
+        <section>
+        <h1>PREGUNTAS FRECUENTES</h1>
+        </section>
+    </div>
+
+        <section class="formulario">
+            <div class="izquierda">
+        <div class="container">
+            <button class="accordion">¿Qué es Fundación Vida?</button>
+            <div class="panel">
+                <img src="pregunta1.png" alt="Imagen 1">
+                <p>La Fundación Hondureña de Ambiente y Desarrollo Vida es una organización sin fines de lucro, de la sociedad civil nacional, consolidada y comprometida a dar soluciones mediante procesos incluyentes y participativos para el desarrollo de la sociedad, la conservación de los recursos naturales y el aprovechamiento sostenible de los mismos.</p>
+            </div>
+    
+            <button class="accordion">¿Qué hace Fundación Vida?</button>
+            <div class="panel">
+                <img src="pregunta2.png" alt="Imagen 2">
+                <p>Fundación Vida trabaja en cuatro áreas estratégicas: reducción de vulnerabilidad social y ambiental, cuencas climáticamente adaptadas, soluciones energéticas integrales y gestión ambiental urbana. Algunos de sus proyectos son: la implementación de estufas mejoradas, la reforestación de cuencas hidrográficas, la promoción de energías renovables y la educación ambiental.</p>
+            </div>
+    
+            <button class="accordion">¿Cómo puedo apoyar a Fundación Vida?</button>
+            <div class="panel">
+                <img src="logo.png" alt="Imagen 2">
+                <p>Puedes apoyar a Fundación Vida de varias formas: donando dinero, materiales o tiempo; comprando sus productos ecológicos; difundiendo su labor y sus campañas; o asociándote como voluntario, socio o aliado. Para más información, visita su página web o sus redes sociales.</p>
+            </div>
+    
+            <button class="accordion">¿Qué beneficios tiene usar una estufa mejorada?</button>
+            <div class="panel">
+                <img src="estufa.jpg" alt="Imagen 2">
+                <p>Las estufas mejoradas son dispositivos que reducen el consumo de leña y la emisión de humo al cocinar, lo que contribuye a mejorar la salud de las familias, la economía familiar y el medio ambiente. Las estufas mejoradas de Fundación Vida tienen un diseño industrial aprobado por universidades, son portátiles, accesibles y de larga duración.</p>
+            </div>
+        </div>
+            </div>
+
+        <div class="derecha">
+            <picture>
+                <img src="fundacionvida.gif" alt="gif">
+            </picture>
+        </div>
+    </section>
+
+    <section>
+        <div class="banner2">
+            <img src="banner2.png" alt="banner2" class="banner2">
+        </div>
+    </section>
+
+    <footer>
+        <img src="footer.png" alt="">
+        <h1>Copyright © 2020 FUNDACION VIDA | HONDURAS. </h1>
+    </footer>
+
+</body>
+</html>

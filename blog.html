@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="icon" href="logo5.png" type="image/x-icon">
+    <script>
+        document.addEventListener('DOMContentLoaded', ()=>{
+           /// alert("Se cargó el DOM");
+            const htmlCards = document.querySelectorAll('section div');
+            htmlCards.forEach((card, index) => {
+                card.addEventListener('click', ()=>{
+                    ///alert(`Se hizo click en la tarjeta ${index + 1}`);
+                });
+            });
+        });
+    </script>
+    <script src="fundacionVida.js"></script>
+    <link rel="stylesheet" href="fundacionVida.css">
+</head>
+<body>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <img src="logo.png" alt="Logo" class="logo">
+                    <li><a href="index.html">INICIO</a></li>
+                    <li>
+                        <a href="#">ACERCA DE NOSOTROS<span class="icon"></span></a>
+                        <ul>
+                            <li><a href="historia.html">NUESTRA HISTORIA</a></li>
+                            <li><a href="areas.html">AREAS DE TRABAJO</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">QUÉ HACEMOS<span class="icon"></span></a>
+                        <ul>
+                            <li><a href="programas.html">NUESTROS PROGRAMAS</a></li>
+                            <li><a href="galeria.html">GALERIA DE FOTOS</a></li>
+                            <li><a href="eventos.html">EVENTOS</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">COLABORA<span class="icon"></span></a>
+                        <ul>
+                            <li><a href="ayudar.html">COMO AYUDAR</a></li>
+                            <li><a href="donaciones.html">DONACIONES</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="blog.html" style="color: #3c7408">BLOG</a></li>
+                    <li><a href="preguntas.html">PREGUNTAS FRECUENTES</a></li>
+                    <li><a href="contactanos.html">CONTÁCTANOS</a></li>
+                </ul>
+            </nav>
+        </header>
+    <br>
+
+    <div class="titulo">
+        <img src="titulo.png" alt="tit" class="tit">
+        <section>
+        <h1>Luchamos por conservar el resurso mas importante</h1>
+    </div>
+</section>
+    <section class="blog">
+        <main>
+            <article>
+                <h2>Reducción de vulnerabilidad social y ambiental</h2>
+                <img src="fundacionvida.gif" alt="GIF">
+      
+            </article>
+
+            <article>
+                <h2>Proteccion de nuestros bosques en Honduras</h2>
+                <img src="i5.gif" alt="GIF">
+            </article>
+
+            <article>
+                <h2>Soluciones energéticas integrales ambientales</h2>
+                <img src="i6.gif" alt="GIF">
+
+            </article>
+
+            <article>
+                <h2>Cuencas climáticamente adaptadas ambientales</h2>
+                <img src="i4.gif" alt="GIF">
+
+            </article>
+
+            <article>
+                <h2>Cuidado de nuestros pilares de desarrollo agricultor</h2>
+                <img src="i1.gif" alt="GIF">
+            </article>
+
+            <article>
+                <h2>Todo eso y mas en busca de nuestro equilibrio cultural</h2>
+                <img src="i2.gif" alt="GIF">
+            </article>
+
+            <article>
+                <h2>Primera organizacion acreditada como Observador de Fondo Verde</h2>
+                <img src="i3.gif" alt="GIF">
+            </article>
+
+            <article>
+                <h2>Taller de Insumos para el desarrollo nacional</h2>
+                <img src="i7.gif" alt="GIF">
+
+            </article>
+
+            <article>
+                <h2>Creacion de objetos ecologicos para bajo consumo</h2>
+                <img src="i8.gif" alt="GIF">
+            </article>
+        </main>
+    </section>
+</body>
+<section>
+    <div class="banner2">
+        <img src="banner2.png" alt="banner2" class="banner2">
+    </div>
+</section>
+
+<footer>
+    <img src="footer.png" alt="">
+    <h1>Copyright © 2020 FUNDACION VIDA | HONDURAS. </h1>
+</footer>
+
+</html>

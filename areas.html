@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áreas de Trabajo</title>
+    <link rel="icon" href="logo5.png" type="image/x-icon">
+    <script>
+        document.addEventListener('DOMContentLoaded', ()=>{
+           /// alert("Se cargó el DOM");
+            const htmlCards = document.querySelectorAll('section div');
+            htmlCards.forEach((card, index) => {
+                card.addEventListener('click', ()=>{
+                    ///alert(`Se hizo click en la tarjeta ${index + 1}`);
+                });
+            });
+        });
+    </script>
+    <script src="fundacionVida.js"></script>
+    <link rel="stylesheet" href="fundacionVida.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <img src="logo.png" alt="Logo" class="logo">
+                <li><a href="index.html">INICIO</a></li>
+                <li>
+                    <a href="#" style="color: #3c7408">ACERCA DE NOSOTROS<span class="icon"></span></a>
+                    <ul>
+                        <li><a href="historia.html">NUESTRA HISTORIA</a></li>
+                        <li><a href="areas.html" style="color: #3c7408">AREAS DE TRABAJO</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">QUÉ HACEMOS<span class="icon"></span></a>
+                    <ul>
+                        <li><a href="programas.html">NUESTROS PROGRAMAS</a></li>
+                        <li><a href="galeria.html">GALERIA DE FOTOS</a></li>
+                        <li><a href="eventos.html">EVENTOS</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">COLABORA<span class="icon"></span></a>
+                    <ul>
+                        <li><a href="ayudar.html">COMO AYUDAR</a></li>
+                        <li><a href="donaciones.html">DONACIONES</a></li>
+                    </ul>
+                </li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="preguntas.html">PREGUNTAS FRECUENTES</a></li>
+                <li><a href="contactanos.html">CONTÁCTANOS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <div class="titulo">
+        <img src="titulo.png" alt="tit" class="tit">
+        <section>
+        <h1>AREAS DE TRABAJO</h1>
+    </div>
+</section>
+<section>
+<div class="contenedor1" onclick="mostrarContenido('contenedor1')">
+    <h2>Agricultura Sostenible</h2>
+    <img src="AGRI.png" alt="Imagen 1" width="200">
+    <div class="contenido1" id="contenedor1">
+      <p>El sector agropecuario desempeña un papel relevante dentro de la actividad económica de Honduras. Sus vinculaciones con el resto de los sectores lo convierten en uno de los principales motores de la economía. Lo que sucede en el sector agropecuario se refleja también en las demás actividades productivas: industria, comercio, transporte, almacenamiento y, en parte, en los servicios financieros.
+        El sector agropecuario contribuye, en buena medida, al crecimiento económico y la generación de empleos. Según un estudio de la CEPAL (2010), la participación de este sector en el PIB total es de 21%.
+        En Honduras, el sector agropecuario a través de ciertos productos, se ha podido insertar de manera positiva en los mercados internacionales. Las exportaciones agropecuarias han presentado gran dinamismo en los últimos años, al haber crecido de manera constante. Los principales cultivos comerciales son: café y banano. Otros cultivos importantes son: la caña de azúcar y el aceite de palma, mientras que los destinados a la alimentación de la población son: maíz, sorgo, frijol, y arroz; también se producen cítricos y piñas. Son también importantes las exportaciones de mariscos y madera.
+        Sin embargo, no siempre la producción de cultivos se desarrolla de manera sostenible y amigable con el ambiente. En muchas ocasiones, el aumento de la frontera agrícola, especialmente la agricultura en laderas, se traduce en pérdida de bosques, erosión del suelo, y cambios en el uso de la tierra entre otros. Asimismo, el exceso de pesticidas y fertilizantes abre la ventana para la contaminación de cuerpos de agua. De igual manera, es importante mencionar que la agricultura en nuestro país es dependiente del clima y sus estaciones, puesto que se carece de sistemas de riego efectivos que garanticen la irrigación de los cultivos en especial durante los tiempos de sequías. Esto último, es crítico para los pequeños productores que viven de la agricultura de subsistencia ya que amenaza la seguridad alimentaria y de manera especial bajo las condiciones de cambio climático actuales que están ocasionadas sequías más prolongadas e intensas.
+        Ante ello, la Fundación Vida promueve proyectos de agricultura sostenible de bajo impacto en los recursos naturales. Como resultado, la Fundación impulsa acciones productivas con base en ordenamiento territorial, el uso de buenas prácticas, la diversificación productiva, la organización de productores y la búsqueda y acceso a nuevos mercados que puedan hacer de la agricultura, una actividad productiva sostenible, desde el punto de vista económico, social y ambiental.
+        Entre los proyectos que se destacan en esta área de trabajo están: <br><br>
+        °Apoyo a la Seguridad Alimentaria en las cuencas de los ríos Nacaome y Goascorán (subcuenca del Río San Juan)<br>
+        °Consolidando las Capacidades Locales para la Conservación de la Cuenca del Río Goascorán.</p>
+    </div>
+  </div>
+  
+  <div class="contenedor1" onclick="mostrarContenido('contenedor2')">
+    <h2>Conservación de Bosques y Biodiversidad</h2>
+    <img src="bio.png" alt="Imagen 2" width="200">
+    <div class="contenido1" id="contenedor2">
+      <p>Los bosques en Honduras son diversos: de coníferas, con una variedad de siete especies de pino; latifoliados, con 200 especies de árboles y una rica biodiversidad sobre todo en tierras bajas; nublados latifoliados: pinares o bosques mixtos en tierras altas; latifoliados en lugares de clima seco; y manglares.
+        En Honduras el manejo forestal está enfrentando serios desafíos institucionales, económicos y políticos que ponen en peligro un manejo forestal sostenible. Diversos factores como la tala ilegal, los incendios forestales, las plagas, y el avance de la frontera agrícola están haciendo que en la actualidad la cubierta forestal de Honduras disminuya aproximadamente al 60% de su potencial. A esto se suma que los aprovechamientos del bosque se ven como el único mecanismo para generar ingresos que permiten al sector público forestal cumplir con sus obligaciones financieras. El consumo de leña, como fuente esencial de energía para el país – y la única para buena parte de la población rural – proviene en su mayoría de los bosques latifoliados (de hoja ancha y madera dura) causando así altos índices de deforestación.
+        En este contexto, la Fundación Vida busca nuevas formas de realizar la gestión forestal, promoviendo una mayor participación para los municipios y comunidades, con el fin de tener una mayor gobernanza. Estas acciones se ven complementadas con la generación de mecanismos legales y financieros a nivel local que permitan a las comunidades conservar su recurso forestal.
+        Entre los proyectos que se destacan en esta área de trabajo están:<br><br>
+        °Incidencia para contribuir a la gobernabilidad del bosque desde los consejos consultivos forestales<br>
+        °Fortalecimiento de ocho municipios en la protección del bosque contra incendios forestales.</p>
+    </div>
+  </div>
+
+  <div class="contenedor1" onclick="mostrarContenido('contenedor3')">
+    <h2>Conservación del Recurso Hídrico</h2>
+    <img src="conservacion.png" alt="Imagen 2" width="120">
+    <div class="contenido1" id="contenedor3">
+      <p>En Honduras la precipitación promedio es de unos 1,880mm/año. Aunque esa cantidad de agua llevaría a pensar que existe abundancia, su distribución en el territorio no es homogénea. Por ejemplo, el promedio de lluvia de la vertiente del Océano Pacífico es de 1,585mm/año y la del Océano Atlántico es de 1,906mm/año. A un nivel más local, se podrá encontrar un amplio rango de magnitudes de lluvia que van desde zonas de alta precipitación como el Lago de Yojoa con alrededor de 3,000 mm/año a zonas con mucho menor lluvia como el cinturón seco de Honduras con 700 mm/año.
+        Por otro lado, la dispersión de la población tampoco es homogénea en el territorio y más allá de eso, la población y sus actividades productivas no siempre están ubicadas en las zonas más adecuadas en relación a la disponibilidad de agua y otros recursos naturales asociados, como el bosque. Esto hace que en muchas zonas del país, exista una alta presión sobre los recursos hídricos, causando una disminución paulatina tanto en su cantidad disponible como en su calidad. Esto afecta directamente a la misma población, en particular a los más pobres y más vulnerables.
+        Ante ello, la Fundación Vida promueve proyectos con la visión de “gestión integrada del recurso hídrico”, es decir, un esquema de administración del agua que toma en consideración todo el ciclo del agua, los distintos actores que influyen sobre ella, los esquemas institucionales, entre otros. Estos proyectos generalmente están enmarcados en el ámbito de las cuencas hidrográficas.
+        Entre los proyectos que se destacan en esta área de trabajo están:<br><br>
+        °Apoyando Iniciativas de Saneamiento Básico y Agua Potable en Microcuencas del Río Choluteca<br>
+        °Mejoramiento biofísico y organizativo de la Subcuenca del Río Texiguat</p>
+    </div>
+  </div>
+
+  <div class="contenedor1" onclick="mostrarContenido('contenedor4')">
+    <h2>Desarrollo Compatible con el Clima</h2>
+    <img src="desarrollo.png" alt="Imagen 2" width="180">
+    <div class="contenido1" id="contenedor4">
+      <p>En el seno de la comunidad vinculada al Desarrollo, se ha venido generando una confusión que vale la pena aclarar como punto de partida, Desarrollo Territorial NO es lo mismo que Desarrollo Local, lo Local (Barrio, Aldea, Microcuenca, Ciudad, etc.) es un nivel, podríamos decir que el nivel más básico del sistema territorial; por otro lado, es importante establecer que lo local es además relativo como nivel territorial, dependiendo esta relatividad del nivel desde el cual se este observando, una microcuenca por ejemplo, es lo local si se observa desde la subcuenca, la sub cuenca es lo local si se observa desde la cuenca y la cuenca se convierte en local si se observa desde el país, Honduras misma puede convertirse en lo local si se observa desde Centroamérica. Por último, y si somos buenos observadores, nos daremos cuenta de que es en el territorio, en cualquiera de sus distintos niveles donde se encuentran e interactúan los distintos sectores o dimensiones (Ambiental, Social y Económica) del Desarrollo, y que es precisamente, esta interacción, la que otorga al territorio su condición de sistema abierto y complejo.
+        Sirva lo anterior para aclarar, que lo territorial no puede ser un nivel o una dimensión del desarrollo, sino más bien una concepción, un método de comprensión y abordaje, una filosofía del desarrollo. Parafraseando a Boissier podríamos afirmar que “….el Desarrollo Territorial, es un estado o condición de bienestar comunitario, que emerge de un sistema territorial altamente sinergizado, articulado y/o alineado en una dirección consensuada…”
+        Este capital sinergetico, que tiene como función estratégica la identificación, valoración y articulación de los demás capitales territoriales debe ser cuidadosamente considerado en todos los procesos de gestión del Desarrollo con el propósito de facilitar y profundizar el impacto y la sostenibilidad de los mismos. Ahora bien, como es posible que los capitales o dimensiones territoriales, se articulen, se pongan de acuerdo y se complementen entre sí….podríamos entonces preguntarnos, ¿Como y donde se encuentran un área protegida y una maquila ?… ¿Cómo se alinean un barrio y una fuente productora de agua?
+        Es en este momento donde entran en juego los actores o instituciones territoriales. Cada uno de los capitales o dimensiones del desarrollo, construyen y consolidan instancias o mecanismos que representan sus intereses en los procesos de gestión. Estos mecanismos o estructuras sociopolíticas que representan a los sectores y a los niveles básicos, necesitan urgentemente, si pretenden comprender y abordar el Sistema territorial con alguna opción de éxito, articularse en plataformas multi-nivel y multisectorial para la gestión del desarrollo en sus territorios de actuación.
+        Esta Plataforma o figura articuladora e integradora, llamada por Francisco Alburquerque, “Coalición Social Transformadora”, se constituye en la herramienta sine qua non del desarrollo territorial Sostenible. Como ejemplo muy simplificado de esta figura, símbolo del capital sinergetico, podríamos tomar el caso de una aldea cualquiera en nuestro país en donde: Los intereses del Capital Natural los representa lo que llamamos en Honduras “La Junta de Agua”, los intereses del Capital Social los representa “El Patronato”, los intereses del Capital Económico los representa “La Caja Rural”, La Plataforma Sociopolítica de Gestión Territorial (Coalición Social Transformadora) para esta aldea, deberá incluir por lo tanto, representantes de, al menos estas tres instituciones preocupadas por el desarrollo local..</p>
+    </div>
+  </div>
+
+  <div class="contenedor1" onclick="mostrarContenido('contenedor5')">
+    <h2>Educación Ambiental</h2>
+    <img src="educacion.png" alt="Imagen 2" width="220">
+    <div class="contenido1" id="contenedor5">
+      <p>Honduras cuenta con un marco legal que promueve la educación ambiental, así como con diseños y algunos documentos operativos de apoyo para los maestros que deberían facilitar la educación de esta temática. No obstante, el tema de educación ambiental se diluye en el día a día de las escuelas sin que se puedan implementar planes pedagógicos efectivos que fijen ese conocimiento en los estudiantes y que eventualmente eso se traduzca en un cambio en la sociedad. Ante ello, la Fundación Vida busca implementar y validar un abordaje dinámico y vivaz de educación ambiental para estudiantes de educación básica, basado en el currículo nacional básico. En este sentido, la Fundación Vida impulsa la educación ambiental en el sistema educativo nacional en 10 temas:
+        1.Agua <br>
+        2.Bosques <br>
+        3.Ecosistemas<br>
+        4.Biodiversidad<br>
+        5.Cambio Climático<br>
+        6.Contaminación Antropogénica<br>
+        7.Educación para la Salud<br>
+        8.Reciclaje y Producción Ecológica<br>
+        9.Energía<br>
+        10.Gestión de Riesgos de Desastres<br>
+        La educación y concienciación en estos temas se perfila como una oportunidad para reducir los impactos ambientales a los cuales muchas escuelas públicas de Honduras son vulnerables. Como resultado, se espera que los escolares puedan contribuir a que los impactos ambientales en sus localidades se vean reducidos. Una vez que los niños se hayan empoderado de los conceptos y buenas prácticas para la gestión adecuada de los recursos naturales ellos podrán compartir el conocimiento con sus familiares y vecinos; creando así un efecto multiplicador.<br>
+        Entre los proyectos que se destacan en esta área de trabajo están:<br><br>
+        °Mejoramiento de la Calidad Educativa Formal con Enfoque de Educación Ambiental<br>
+        °Iniciativas de apoyo a la educación ambiental en escuelas</p>
+    </div>
+  </div>
+
+  <div class="contenedor1" onclick="mostrarContenido('contenedor6')">
+    <h2>Energías Renovables</h2>
+    <img src="directivas.png" alt="Imagen 2" width="200">
+    <div class="contenido1" id="contenedor6">
+      <p>El gobierno Hondureño estima que más de 2.3 millones de personas o 30% de la población del país vive sin acceso a electricidad. Más de la mitad de esas personas reside en áreas rurales donde la instalación de infraestructura de conectividad eléctrica es costosa y difícil, por ende, su principal recurso energético es la leña.
+        El combustible fósil es la fuente de generación de más de la mitad de la energía consumida en el país. La mayor parte de la población hace uso de la leña o carbón vegetal para cocinar sus alimentos. La mayor parte de esta leña es obtenida de forma no sostenible de los bosques del país; contribuyendo con la deforestación que conlleva a otros tantos problemas relacionados a la erosión del suelo, contaminación de las fuentes de agua, inundaciones, deslizamientos y pérdida de biodiversidad.
+        Actualmente, las energías renovables en Honduras han incrementado su espacio en la matriz energética nacional para satisfacer las necesidades de la población. Éstas se enfocan en la generación de energía solar, hídrica, de biomasa y eólica, así también como en la producción de biocombustibles y biogás, generados a través de plantas y desechos animales.
+        La Fundación Vida apoya la generación de energías renovables a través de la implementación de proyectos que impulsen:<br><br>
+        1.Desarrollo e investigación de tecnologías energéticas aplicadas en las condiciones de mercado.<br>
+        2.Organización del aprovisionamiento (definir micro franquicias, proveedores, sistemas de información sobre calidad del servicio, disponer de la tecnología y de los productos).<br><br>
+        °Desarrollo de negocios de energía <br>
+        1.Mercadeo y posicionamiento de productos y tecnologías alternativas<br>
+        2.Posicionamiento de las estufas mejoradas en el país<br><br>
+        Entre los proyectos que se destacan en esta área de trabajo están:<br>
+        °Programa Asociación Voz para el Cambio- Incidencia basada en evidencia en energías renovables con énfasis en estufas mejoradas<br>
+        °Promoción de Modelos de Negocios Sostenibles para Difundir el Uso de Estufas Ecológicas PROFOGONES<br>
+        °Energía fotovoltaíca como plataforma para el desarrollo de familias pobres y vulnerables en el sur de Honduras.<br>
+        °Tecnologías de energía solar como compensación a servicios ambientales en Choluteca</p>
+    </div>
+  </div>
+</section>
+<section>
+    <div class="banner2">
+        <img src="banner2.png" alt="banner2" class="banner2">
+    </div>
+</section>
+
+<footer>
+    <img src="footer.png" alt="">
+    <h1>Copyright © 2020 FUNDACION VIDA | HONDURAS. </h1>
+</footer>
+</body>
+</html>

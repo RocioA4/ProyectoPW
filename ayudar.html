@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como ayudar</title>
+    <link rel="icon" href="logo5.png" type="image/x-icon">
+    <script>
+        document.addEventListener('DOMContentLoaded', ()=>{
+           /// alert("Se cargó el DOM");
+            const htmlCards = document.querySelectorAll('section div');
+            htmlCards.forEach((card, index) => {
+                card.addEventListener('click', ()=>{
+                    ///alert(`Se hizo click en la tarjeta ${index + 1}`);
+                });
+            });
+        });
+    </script>
+    <script src="fundacionVida.js"></script>
+    <link rel="stylesheet" href="fundacionVida.css">
+</head>
+<body>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <img src="logo.png" alt="Logo" class="logo">
+                    <li><a href="index.html">INICIO</a></li>
+                    <li>
+                        <a href="#">ACERCA DE NOSOTROS<span class="icon"></span></a>
+                        <ul>
+                            <li><a href="historia.html">NUESTRA HISTORIA</a></li>
+                            <li><a href="areas.html">AREAS DE TRABAJO</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">QUÉ HACEMOS<span class="icon"></span></a>
+                        <ul>
+                            <li><a href="programas.html">NUESTROS PROGRAMAS</a></li>
+                            <li><a href="galeria.html">GALERIA DE FOTOS</a></li>
+                            <li><a href="eventos.html">EVENTOS</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" style="color: #3c7408">COLABORA<span class="icon"></span></a>
+                        <ul>
+                            <li><a href="ayudar.html" style="color: #3c7408">COMO AYUDAR</a></li>
+                            <li><a href="donaciones.html">DONACIONES</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="preguntas.html">PREGUNTAS FRECUENTES</a></li>
+                    <li><a href="contactanos.html">CONTÁCTANOS</a></li>
+                </ul>
+            </nav>
+        </header>
+    <br>
+    <section class="ayudar">
+        <article><br>
+            <img src="ayuda.jpg" alt="img">
+            <h2>Desde 1992 luchando por una Honduras ecoamigable</h2>
+        </article>
+        <button class="accordion">¿Como Ayudar?</button>
+        <div class="panel">
+            <h3>Donaciones Monetarias</h3>
+            <p>Puedes realizar donaciones directas a través de la plataforma de donaciones en línea de la Fundación Vida. <br>
+                Contribuir de manera regular mediante programas de donaciones mensuales.</p><br>
+            <h3>Donaciones en Especie</h3>
+            <p>La fundación acepta donaciones de materiales y equipos específicos que puedan ser utilizados en sus proyectos. <br>
+                Preguntar sobre las necesidades actuales para asegurarse de que las donaciones en especie sean de utilidad.</p><br>
+            <h3>Colaboraciones Empresariales</h3>
+            <p>Explorar oportunidades para establecer colaboraciones a largo plazo entre la Fundación Vida y tu empresa u organización. <br>
+                Apoyar proyectos específicos a través de patrocinios o asociaciones estratégicas.</p>
+            </div>
+        <button class="accordion">¿Como ser voluntariamente?</button>
+        <div class="panel">
+            <h3>Voluntariado</h3>
+            <p>Ofrecer tu tiempo y habilidades como voluntario en proyectos y actividades específicas de la Fundación Vida. <br>
+                Participar en programas de voluntariado a corto o largo plazo, según tu disponibilidad.</p>
+            <h3>¿Como serlo?</h3>
+            <p>Comunícate con la Fundación Vida para expresar tu interés en ser voluntario. Puedes hacerlo a través de su sitio web, correo electrónico o llamada telefónica.</p>
+        </div>
+
+        <button class="accordion">Participa en Eventos con Nosotros</button>
+        <div class="panel">
+            <p>Asistir y participar en eventos de recaudación de fondos y concienciación organizados por la Fundación Vida. <br>
+                Contribuir con ideas y recursos para la planificación de eventos. <br>
+                Participa en cualquier formación adicional que la Fundación Vida pueda ofrecer. Esto podría incluir talleres, seminarios o capacitaciones relacionadas con su trabajo y misión.</p>
+        </div>
+
+    </section>
+        <br>
+        <footer>
+            <img src="footer.png" alt="">
+            <p>Copyright © 2020 FUNDACION VIDA | HONDURAS. </p>
+        </footer>
+</body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de Nosotros</title>
+    <link rel="icon" href="logo5.png" type="image/x-icon">
+    <script>
+        document.addEventListener('DOMContentLoaded', ()=>{
+           /// alert("Se cargó el DOM");
+            const htmlCards = document.querySelectorAll('section div');
+            htmlCards.forEach((card, index) => {
+                card.addEventListener('click', ()=>{
+                    ///alert(`Se hizo click en la tarjeta ${index + 1}`);
+                });
+            });
+        });
+    </script>
+    <script src="fundacionVida.js"></script>
+    <link rel="stylesheet" href="fundacionVida.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <img src="logo.png" alt="Logo" class="logo">
+                <li><a href="index.html">INICIO</a></li>
+                <li>
+                    <a href="#" style="color: #3c7408">ACERCA DE NOSOTROS<span class="icon"></span></a>
+                    <ul>
+                        <li><a href="historia.html" style="color: #3c7408">NUESTRA HISTORIA</a></li>
+                        <li><a href="areas.html">AREAS DE TRABAJO</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">QUÉ HACEMOS<span class="icon"></span></a>
+                    <ul>
+                        <li><a href="programas.html">NUESTROS PROGRAMAS</a></li>
+                        <li><a href="galeria.html">GALERIA DE FOTOS</a></li>
+                        <li><a href="eventos.html">EVENTOS</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">COLABORA<span class="icon"></span></a>
+                    <ul>
+                        <li><a href="ayudar.html">COMO AYUDAR</a></li>
+                        <li><a href="donaciones.html">DONACIONES</a></li>
+                    </ul>
+                </li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="preguntas.html">PREGUNTAS FRECUENTES</a></li>
+                <li><a href="contactanos.html" >CONTÁCTANOS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <div class="titulo">
+            <img src="titulo.png" alt="tit" class="tit">
+            <section>
+            <h1>NUESTRA HISTORIA</h1>
+            <p>La Fundación Vida nace en el año 1992 como un esfuerzo de un grupo de hondureños y hondureñas preocupados 
+            por la situación ambiental del país. Se aspira en ese momento a crear una organización capaz de impulsar, 
+            a través de su accionar, una agenda dirigida a la protección de nuestras importantes riquezas naturales.
+            En tal sentido, la Fundación Vida y gracias al Fondo Hondureño para el Medio Ambiente (FOHPMA), logra brindar 
+            apoyo técnico y financiero a alrededor de 43 Organizaciones no gubernamentales entre el período 1992-2002. 
+            Dicho fondo fue creado por el Gobierno de Honduras y fue propuesto y complementado por la Agencia de los Estados
+             Unidos para el Desarrollo Internacional (USAID). Se destaca al inicio de este período, el apoyo fundamental del 
+             Programa de las Naciones Unidas para el Desarrollo, al fortalecimiento institucional de nuestra Fundación.
+            Con el pasar de los años, a inicios del año 2000 se abren nuevos espacios de trabajo gracias a la confianza del 
+            Gobierno de Canadá y la Unión Europea, quienes llegan a enriquecer los programas que la Fundación mantenía en 
+            agenda, brindando a través de recursos financieros, la oportunidad de extender su campo de acción. Los temas de 
+            manejo de áreas protegidas, manejo de cuencas y agua, así como la educación y la gestión ambiental municipal, 
+            son las grandes líneas en las que acciona la Fundación, junto con sus instituciones socias nacionales e 
+            internacionales. Su trabajo se lleva a cabo en todo el país, apoyando a cientos de organizaciones locales que 
+            buscan un desarrollo con sostenibilidad.
+            Años más tarde, en la segunda mitad de la década de existencia, más de una decena de instituciones, entre 
+            agencias de cooperación, redes internacionales y Fundaciones, crean lazos de trabajo con la Fundación, logrando 
+            importantes metas en temas vinculados a bosques, agua, mecanismos financieros de conservación, entre otros. 
+            Entre estas instituciones se destacan la Agencia Danesa de Cooperación, la Unión Internacional para la 
+            Conservación de la Naturaleza, la Fundación Interamericana, la Fundación W.K. Kellogg, la Asociación Mundial 
+            para el Agua y el Servicio Forestal de los Estados Unidos.
+            En la actualidad, con esa misma tarea y de cara a la dinámica que plantean los problemas socio-ambientales de 
+            estos tiempos, la Fundación orienta esfuerzos hacia su consolidación como organización social con mayor 
+            capacidad de servicios de respuesta a demandas locales y nacionales en ambiente y desarrollo. Esto se lleva a 
+            cabo mediante la conformación de consorcios / alianzas con organismos de apoyo internacional, organizaciones 
+            no lucrativas de la sociedad civil, empresa privada y universidades, con quienes se potencia un desarrollo más 
+            integral y participativo.</p>
+        </div>
+    </section>
+    <section>
+        <div class="timeline">
+            <div class="event" id="event1">
+                <div class="event-date">1992</div>
+                <div class="event-description">
+                    <h2>Nace oficialmente</h2>
+                    <p>Fundación Vida</p>
+                </div>
+            </div>
+            
+            <div class="event" id="event2">
+                <div class="event-date">1992-2002</div>
+                <div class="event-description">
+                    <h2>Colaboración </h2>
+                    <p>FOHPMA, USAID y PNUD</p>
+                </div>
+            </div>
+
+            <div class="event" id="event3">
+                <div class="event-date">2000</div>
+                <div class="event-description">
+                    <h2>Colaboración con Gobierno</h2>
+                    <p>de Canadá y la Unión Europea</p>
+                </div>
+            </div>    
+            
+                <div class="event" id="event4">
+                    <div class="event-date">2005</div>
+                    <div class="event-description">
+                        <h2>Colaboración con mas de una centena</h2>
+                        <p>instituciones y agencias</p>
+                    </div>
+            </div>
+    
+                <div class="event" id="event5">
+                    <div class="event-date">Actualidad</div>
+                    <div class="event-description">
+                        <h2>Se cuenta con experiencia y recorrido:</h2>
+                        <p>Conformación de consorcios/ alianzas con múltiples organizaciones a nivel nacional, regional y global</p>
+                    </div> 
+                </div>           
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="contenedor">
+            <div class="mision">
+                <img src="mision.png" alt="mision" class="mision">
+                <p>Somos una organización de la sociedad civil, sin fines de lucro, especializada en desarrollo sostenible
+                 con presencia reconocida y un equipo altamente calificado en la prestación de servicios ambientales e 
+                 incidiendo en el diseño y aplicación de políticas públicas ambientales.</p>
+            </div>
+    
+            <div class="vision">
+                <img src="vision.png" alt="vision" class="vision">
+                <p>Ser reconocida como una organización líder y proactiva en materia socio-ambiental, 
+                con incidencia a nivel nacional y regional; especializada en la gestión sostenible de recursos, 
+                que ha propiciado el mejoramiento en la calidad de vida integral con la participación de grupos que 
+                viven en situación vulnerable.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="formulario">
+        <div class="izquierda">
+        <div class="smartart-container">
+            <h1>Nuestros valores</h1>
+            <div class="smartart-item">
+                <div class="smartart-box">
+                    <img src="calidad.png" alt="Icono 1">
+                </div>
+                <div class="smartart-item-content">
+                    <p> Calidad, ética y transparencia</p>
+                </div>
+                <div class="connector-line"></div>
+            </div>
+            <div class="smartart-item">
+                <div class="smartart-box">
+                    <img src="respeto.png" alt="Icono 2">
+                </div>
+                <div class="smartart-item-content">
+                    <p>Respeto a las condiciones humanas, sociales y ambientales</p>
+                </div>
+                <div class="connector-line"></div>
+            </div>
+            <div class="smartart-item">
+                <div class="smartart-box">
+                    <img src="sostenibilidad.png" alt="Icono 3">
+                </div>
+                <div class="smartart-item-content">
+                    <p>Sostenibilidad</p>
+                </div>
+                <div class="connector-line"></div>
+            </div>
+            <div class="smartart-item">
+                <div class="smartart-box">
+                    <img src="creatividad.png" alt="Icono 4">
+                </div>
+                <div class="smartart-item-content">
+                    <p>Innovación y creatividad.</p>
+                </div>
+                <div class="connector-line"></div>
+            </div>
+            <div class="smartart-item">
+                <div class="smartart-box">
+                    <img src="inclusion.png" alt="Icono 5">
+                </div>
+                <div class="smartart-item-content">
+                    <p>Inclusión en todas nuestras acciones</p>
+                </div>
+                <div class="connector-line"></div>
+            </div>
+        </div>
+        </div>
+
+        <div class="derecha">
+            <picture>
+                <img src="logo5.png" alt="bakery">
+            </picture>
+        </div>
+    </section>
+
+</body>
+    <footer>
+        <img src="footer.png" alt="">
+        <h1>Copyright © 2020 FUNDACION VIDA | HONDURAS. </h1>
+    </footer>
+
+</html>
+

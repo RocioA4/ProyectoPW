@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link rel="icon" href="logo5.png" type="image/x-icon">
+    <script>
+        document.addEventListener('DOMContentLoaded', ()=>{
+           /// alert("Se cargó el DOM");
+            const htmlCards = document.querySelectorAll('section div');
+            htmlCards.forEach((card, index) => {
+                card.addEventListener('click', ()=>{
+                    ///alert(`Se hizo click en la tarjeta ${index + 1}`);
+                });
+            });
+        });
+    </script>
+    <script src="fundacionVida.js"></script>
+    <link rel="stylesheet" href="fundacionVida.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <img src="logo.png" alt="Logo" class="logo">
+                <li><a href="index.html">INICIO</a></li>
+                <li>
+                    <a href="#">ACERCA DE NOSOTROS<span class="icon"></span></a>
+                    <ul>
+                        <li><a href="historia.html">NUESTRA HISTORIA</a></li>
+                        <li><a href="areas.html">AREAS DE TRABAJO</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">QUÉ HACEMOS<span class="icon"></span></a>
+                    <ul>
+                        <li><a href="programas.html">NUESTROS PROGRAMAS</a></li>
+                        <li><a href="galeria.html" style="color: #3c7408">GALERIA DE FOTOS</a></li>
+                        <li><a href="eventos.html">EVENTOS</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">COLABORA<span class="icon"></span></a>
+                    <ul>
+                        <li><a href="ayudar.html">COMO AYUDAR</a></li>
+                        <li><a href="donaciones.html">DONACIONES</a></li>
+                    </ul>
+                </li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="preguntas.html">PREGUNTAS FRECUENTES</a></li>
+                <li><a href="contactanos.html">CONTÁCTANOS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <div class="titulo">
+        <img src="titulo.png" alt="tit" class="tit">
+        <section>
+        <h1>GALERIA</h1>
+    </div>
+</section>
+
+
+<section>
+    <div class="galeria">
+        <div class="galeria-item">
+            <img src="profogones.jpg" alt="Imagen">
+            <div class="overlay">
+                <p class="overlay-text">Proyecto Profogones</p>
+            </div>
+        </div>
+        <div class="galeria-item">
+            <img src="agricola.png" alt="Imagen">
+            <div class="overlay">
+                <p class="overlay-text">Prácticas agrícolas</p>
+            </div>
+        </div>
+        <div class="galeria-item">
+            <img src="proveemos.jpg" alt="Imagen">
+            <div class="overlay">
+                <p class="overlay-text">Consejos</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="galeria">
+        <div class="galeria-item">
+            <img src="somos.jpg" alt="Imagen">
+            <div class="overlay">
+                <p class="overlay-text">¿Quienes somos?</p>
+            </div>
+        </div>
+        <div class="galeria-item">
+            <img src="nuestras.jpg" alt="Imagen">
+            <div class="overlay">
+                <p class="overlay-text">Nuestros proyectos</p>
+            </div>
+        </div>
+        <div class="galeria-item">
+            <img src="certificados.jpg" alt="Imagen">
+            <div class="overlay">
+                <p class="overlay-text">Entrega de certificados a maestros fogoneros y 
+                    gestores y emprendedores de estufas mejoradas, UNACIFOR, Siguatepeque.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="galeria">
+        <div class="galeria-item">
+            <img src="firma.jpg" alt="Imagen">
+            <div class="overlay">
+                <p class="overlay-text">Firma de la Carta Acuerdo para la promoción de estufas mejoradas y su uso.</p>
+            </div>
+        </div>
+        <div class="galeria-item">
+            <img src="fogon.jpg" alt="Imagen">
+            <div class="overlay">
+                <p class="overlay-text">El fogón mejorado consume un promedio de 4 leños diarios a diferencia 
+                    de un fogón tradicional que consume el doble.</p>
+            </div>
+        </div>
+        <div class="galeria-item">
+            <img src="fogonme.jpg" alt="Imagen">
+            <div class="overlay">
+                <p class="overlay-text">Fogón Mejorado, cocinas limpias, PROFOGONES</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="galeria">
+        <div class="galeria-item">
+            <img src="mejoradas.jpg" alt="Imagen">
+            <div class="overlay">
+                <p class="overlay-text">Estufas mejoradas</p>
+            </div>
+        </div>
+        <div class="galeria-item">
+            <img src="clientes.jpg" alt="Imagen">
+            <div class="overlay">
+                <p class="overlay-text">Clientes satisfechos.</p>
+            </div>
+        </div>
+        <div class="galeria-item">
+            <img src="beneficios.jpg" alt="Imagen">
+            <div class="overlay">
+                <p class="overlay-text">Beneficios</p>
+            </div>
+        </div>
+    </div>
+          
+</section>
+
+</body>
+<section>
+    <div class="banner2">
+        <img src="banner2.png" alt="banner2" class="banner2">
+    </div>
+</section>
+
+<footer>
+    <img src="footer.png" alt="">
+    <h1>Copyright © 2020 FUNDACION VIDA | HONDURAS. </h1>
+</footer>
+
+</html>

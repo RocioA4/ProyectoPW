@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos</title>
+    <link rel="icon" href="logo5.png" type="image/x-icon">
+    <script>
+        document.addEventListener('DOMContentLoaded', ()=>{
+           /// alert("Se cargó el DOM");
+            const htmlCards = document.querySelectorAll('section div');
+            htmlCards.forEach((card, index) => {
+                card.addEventListener('click', ()=>{
+                    ///alert(`Se hizo click en la tarjeta ${index + 1}`);
+                });
+            });
+        });
+    </script>
+    <script src="fundacionVida.js"></script>
+    <link rel="stylesheet" href="fundacionVida.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <img src="logo.png" alt="Logo" class="logo">
+                <li><a href="index.html">INICIO</a></li>
+                <li>
+                    <a href="#">ACERCA DE NOSOTROS<span class="icon"></span></a>
+                    <ul>
+                        <li><a href="historia.html">NUESTRA HISTORIA</a></li>
+                        <li><a href="areas.html">AREAS DE TRABAJO</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">QUÉ HACEMOS<span class="icon"></span></a>
+                    <ul>
+                        <li><a href="programas.html">NUESTROS PROGRAMAS</a></li>
+                        <li><a href="galeria.html">GALERIA DE FOTOS</a></li>
+                        <li><a href="eventos.html">EVENTOS</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">COLABORA<span class="icon"></span></a>
+                    <ul>
+                        <li><a href="ayudar.html">COMO AYUDAR</a></li>
+                        <li><a href="donaciones.html">DONACIONES</a></li>
+                    </ul>
+                </li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="preguntas.html">PREGUNTAS FRECUENTES</a></li>
+                <li><a href="contactanos.html" style="color: #3c7408">CONTÁCTANOS</a></li>
+            </ul>
+        </nav>
+    </header>
+        <section class="formulario">
+            <div class="izquierda">
+                <h2>Contáctenos</h2>
+                <form class="contacto" action="" method="get">
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name" placeholder="Isabella Alvarado" required>
+                    <label for="email">Correo Electronico</label>
+                    <input type="email" name="email" id="email" placeholder="alvaradoisabella473@gmail.com" required>
+                    <label for="name">Asunto</label>
+                    <input type="text" name="name" id="name" required>
+                    <label for="comunicación">Tipo de comunicación</label>
+                    <select name="comunicación" id="comunicación">
+                        <option value="asunto1">Consulta general</option>
+                        <option value="asunto2">Voluntariado</option>
+                        <option value="asunto3">Denuncia</option>
+                        <option value="asunto4">Reclamo</option>
+                        <option value="asunto5">Otro</option>
+                    </select>
+                    <label for="message">Mensaje</label>
+                    <textarea name="message" id="message" placeholder="Su mensaje" required></textarea>
+                    <input type="submit" value="Enviar información" />
+                </form>
+            </div>
+            <div class="derecha">
+                <h2>Dirección</h2>
+                <p>Col. La Reforma, 3era calle, 2da Avenida, Tegucigalpa</p>
+                <picture>
+                    <img src="direccion.png" alt="bakery">
+                </picture>
+            </div>
+        </section>
+
+        <section>
+            <div class="contenedor2">
+                <div class="telefono">
+                    <img src="tel.png" alt="telefono" class="telefono">
+                    <p>+504 2238-9708</p>
+                </div>
+        
+                <div class="email">
+                    <img src="email.png" alt="email" class="email">
+                    <p>fvida@fundacionvida.org.</p>
+                </div>
+
+                <div class="email">
+                    <img src="facebook.png" alt="facebook" class="facebook">
+                    <a href="https://www.facebook.com/FundacionVidaHnd/" target="_blank"> Página de Facebook</a>
+                </div>
+            </div>
+        </section>
+
+</body>
+        <section>
+            <div class="banner2">
+                <img src="banner2.png" alt="banner2" class="banner2">
+            </div>
+        </section>
+
+        <footer>
+            <img src="footer.png" alt="">
+            <h1>Copyright © 2020 FUNDACION VIDA | HONDURAS. </h1>
+        </footer>
+</html>

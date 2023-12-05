@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="icon" href="logo5.png" type="image/x-icon">
+    <script>
+        document.addEventListener('DOMContentLoaded', ()=>{
+           /// alert("Se cargó el DOM");
+            const htmlCards = document.querySelectorAll('section div');
+            htmlCards.forEach((card, index) => {
+                card.addEventListener('click', ()=>{
+                    ///alert(`Se hizo click en la tarjeta ${index + 1}`);
+                });
+            });
+        });
+    </script>
+    <script src="fundacionVida.js"></script>
+    <link rel="stylesheet" href="fundacionVida.css">
+</head>
+<body>
+    <header class="inicio-header" id="header">
+        <nav>
+            <ul>
+                <img src="logo.png" alt="Logo" class="logo">
+                <li><a href="index.html" style="color: #3c7408">INICIO</a></li>
+                <li>
+                    <a href="#">ACERCA DE NOSOTROS<span class="icon"></span></a>
+                    <ul>
+                        <li><a href="historia.html">NUESTRA HISTORIA</a></li>
+                        <li><a href="areas.html">AREAS DE TRABAJO</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">QUÉ HACEMOS<span class="icon"></span></a>
+                    <ul>
+                        <li><a href="programas.html">NUESTROS PROGRAMAS</a></li>
+                        <li><a href="galeria.html">GALERIA DE FOTOS</a></li>
+                        <li><a href="eventos.html">EVENTOS</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">COLABORA<span class="icon"></span></a>
+                    <ul>
+                        <li><a href="ayudar.html">COMO AYUDAR</a></li>
+                        <li><a href="donaciones.html">DONACIONES</a></li>
+                    </ul>
+                </li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="preguntas.html">PREGUNTAS FRECUENTES</a></li>
+                <li><a href="contactanos.html">CONTÁCTANOS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1 style="color: orange">BIENVENIDOS A FUNDACIÓN VIDA </h1>
+    </section>
+
+    <section>
+        <div class="cont">
+            <img src="pregunta1.png" alt="Imagen">
+            <p>
+                La Fundación Hondureña de Ambiente y Desarrollo Vida es una organización sin fines de lucro, 
+                de la sociedad civil nacional, consolidada y comprometida a dar soluciones mediante procesos incluyentes 
+                y participativos para el desarrollo de la sociedad, la conservación de los recursos naturales y el 
+                aprovechamiento sostenible de los mismos. </p>
+        </div>
+    </section>
+
+    <section>
+        <div class="banner2">
+            <img src="banner2.png" alt="banner2" class="banner2">
+        </div>
+    </section>
+
+        <table class="tab">
+            <tr>
+                <td>
+                    <div>
+                        <img src="fundacionvida.gif" alt="Imagen 1">
+                        <p>
+                            <img src="hoja.png" alt="Imagen 11">
+                            Reducción de vulnerabilidad social y ambiental
+                        </p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <img src="fundacionvida.gif" alt="Imagen 2">
+                        <p>
+                            <img src="gota.png" alt="Imagen 11">
+                            Cuencas climáticamente adaptadas
+                        </p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <img src="fundacionvida.gif" alt="Imagen 3">
+                        <p>
+                            <img src="energia.png" alt="Imagen 11">
+                            Soluciones energeticas integrales
+                        </p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+    <section class="cuadrotexto">
+            <h1>Nuestra Línea de Estufas Mejoradas</h1>
+            <p>Como parte de nuestras soluciones energéticas y amigables con el ambiente, 
+                presentamos nuestra línea de estufas mejoras, reducen hasta en un 90% el humo y 
+                con esto ayudamos a proteger tu salud.</p>
+    </section> 
+    
+    <section class="formulario">
+        <div class="izquierda">
+    <div class="smartart-container">
+        <div class="smartart-item">
+            <div class="smartart-box">
+                <img src="humo.png" alt="Icono 1">
+            </div>
+            <div class="smartart-item-content">
+                <p>Reduce en un 90% el humo</p>
+            </div>
+            <div class="connector-line"></div>
+        </div>
+        <div class="smartart-item">
+            <div class="smartart-box">
+                <img src="leña.png" alt="Icono 2">
+            </div>
+            <div class="smartart-item-content">
+                <p>Usted ahorra más del 60% de leña</p>
+            </div>
+            <div class="connector-line"></div>
+        </div>
+        <div class="smartart-item">
+            <div class="smartart-box">
+                <img src="portatil.jpg" alt="Icono 3">
+            </div>
+            <div class="smartart-item-content">
+                <p>	La mayoría de los modelos son portátiles</p>
+            </div>
+            <div class="connector-line"></div>
+        </div>
+        <div class="smartart-item">
+            <div class="smartart-box">
+                <img src="aprobado.png" alt="Icono 4">
+            </div>
+            <div class="smartart-item-content">
+                <p>	Su diseño industrial ha sido aprobado por Universidades</p>
+            </div>
+            <div class="connector-line"></div>
+        </div>
+        <div class="smartart-item">
+            <div class="smartart-box">
+                <img src="precio.png" alt="Icono 5">
+            </div>
+            <div class="smartart-item-content">
+                <p>Precio accesible y de larga duración</p>
+            </div>
+            <div class="connector-line"></div>
+        </div>
+    </div>
+    </div>
+
+    <div class="derecha1">
+        <picture>
+            <img src="estufa1.jpg" alt="estufa1">
+            <img src="estufa2.jpg" alt="estufa2">
+            <img src="estufa3.jpg" alt="estufa3">
+        </picture>
+    </div>
+</section>
+
+</body>
+<section>
+    <div class="banner2">
+        <img src="banner01.jpg" alt="banner2" class="banner2">
+    </div>
+</section>
+
+<footer>
+    <img src="footer.png" alt="">
+    <h1>Copyright © 2020 FUNDACION VIDA | HONDURAS. </h1>
+</footer>
+</html>

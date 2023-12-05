@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donaciones</title>
+    <link rel="icon" href="logo5.png" type="image/x-icon">
+    <script>
+        document.addEventListener('DOMContentLoaded', ()=>{
+           /// alert("Se cargó el DOM");
+            const htmlCards = document.querySelectorAll('section div');
+            htmlCards.forEach((card, index) => {
+                card.addEventListener('click', ()=>{
+                    ///alert(`Se hizo click en la tarjeta ${index + 1}`);
+                });
+            });
+        });
+    </script>
+    <script src="fundacionVida.js"></script>
+    <link rel="stylesheet" href="fundacionVida.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <img src="logo.png" alt="Logo" class="logo">
+                <li><a href="index.html">INICIO</a></li>
+                <li>
+                    <a href="#">ACERCA DE NOSOTROS<span class="icon"></span></a>
+                    <ul>
+                        <li><a href="historia.html">NUESTRA HISTORIA</a></li>
+                        <li><a href="areas.html">AREAS DE TRABAJO</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">QUÉ HACEMOS<span class="icon"></span></a>
+                    <ul>
+                        <li><a href="programas.html">NUESTROS PROGRAMAS</a></li>
+                        <li><a href="galeria.html">GALERIA DE FOTOS</a></li>
+                        <li><a href="eventos.html">EVENTOS</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">COLABORA<span class="icon"></span></a>
+                    <ul>
+                        <li><a href="ayudar.html">COMO AYUDAR</a></li>
+                        <li><a href="donaciones.html" style="color: #3c7408">DONACIONES</a></li>
+                    </ul>
+                </li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="preguntas.html">PREGUNTAS FRECUENTES</a></li>
+                <li><a href="contactanos.html">CONTÁCTANOS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <div class="titulo">
+        <img src="titulo.png" alt="tit" class="tit">
+        <section>
+        <h1>DONACIONES</h1>
+        <p>La Fundación Hondureña de Ambiente y Desarrollo de Vida, fundada con el propósito de promover una mejor gestión de los recursos naturales que permita que los hondureños y hondureñas gocen de una mejor calidad de vida, necesita de su apoyo para seguir desarrollando su misión. Su apoyo a nuestros proyectos o donaciones nos ayudará a continuar incidiendo, promoviendo y generando cambios que permitan un escenario de desarrollo sostenible para Honduras.
+        Para mayor información y detalles sobre cómo podemos obtener su apoyo, favor contáctenos vía email a la dirección fvida@fundaciónvida.org o llámenos a los teléfonos (504) 2239-0574 ó 2232-0052.</p>
+        </p>
+    </div>
+</section>
+
+<section class="formulario">
+    <div class="izquierda">
+<div class="container1">
+    <h1>Donaciones Fundación Vida</h1>
+    <p>Gracias por tu interés en apoyar nuestra causa. Tu donación nos ayudará a seguir trabajando por un mundo mejor. Por favor, rellena el siguiente formulario para realizar tu donación en línea.</p>
+    <form class="form" id="donation-form" onsubmit="return false;">
+      <input type="text" id="name" placeholder="Nombre completo" required>
+      <input type="email" id="email" placeholder="Correo electrónico" required>
+      <input type="number" id="amount" placeholder="Monto a donar (en lempiras)" min="1" required>
+      <button id="submit" onclick="submitDonation()">Donar</button>
+    </form>
+    <div class="message" id="message"></div>
+  </div>
+    </div>
+
+    <div class="derecha">
+        <picture>
+            <img src="donaciones.png" alt="donaciones" width="700">
+        </picture>
+    </div>
+</section>
+
+<section>
+    <div class="banner2">
+        <img src="banner2.png" alt="banner2" class="banner2">
+    </div>
+</section>
+
+</body>
+<footer>
+    <img src="footer.png" alt="">
+    <h1>Copyright © 2020 FUNDACION VIDA | HONDURAS. </h1>
+</footer>
+  
+</html>
